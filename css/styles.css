@@ -277,6 +277,18 @@
     line-height: 1.87;
     text-align: center;
   }
+  /* customers*/
+  .client-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .client-list li {
+    margin-right: 30px;
+    width: 170px;
+  }
+  .client-list li:ntn-last-child(6n) {
+    margin-right: 0;
+  }
   /* footer */
   .footer {
     background-color: var(--third-bg-color);
