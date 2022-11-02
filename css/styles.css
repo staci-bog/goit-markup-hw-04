@@ -128,6 +128,14 @@
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: 
+    /* linear-gradient(
+        rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    )*/
+     url(../images/requestbg/requestbg.jpg);
+     background-position: center;
+     background-size: cover;
   }
   .request-title {
     margin: auto;
@@ -156,6 +164,10 @@
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     cursor: pointer;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
   }
   /* quality */
   
