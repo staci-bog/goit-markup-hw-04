@@ -295,6 +295,29 @@
   .team-item:nth-child(4n) {
     margin-right: 0;
   }
+  .team-item::after {
+    display: block;
+    content: "";
+    width: 206;
+    height: 44px;
+    /*border-radius: 4px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+     background-color: red;  
+     padding-bottom: 30px;
+  }
+  .icon-instagram::after {
+    background-image: url();
+  }
+  .icon-twitter::after {
+    background-image: url();
+  }
+  .icon-facebook::after {
+    background-image: url();
+  }
+  .icon-linkedln::after {
+    background-image: url(.);
+  }
   .team-title {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -308,7 +331,7 @@
     color: var(--second-color-text);
   }
   .team-text {
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
@@ -322,11 +345,41 @@
   }
   .client-list li {
     margin-right: 30px;
-    width: 170px;
+    /*width: 170px;*/
   }
   .client-list li:nth-child(6n) {
     margin-right: 0;
   }
+  .customer-item::before {
+    display: block;
+    content: "";
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--second-bg-color);
+    margin-bottom: 30px;
+  }
+  .icon1::before {
+    background-image: url();
+  }
+  .icon2::before {
+    background-image: url();
+  }
+  .icon3::before {
+    background-image: url(.);
+  }
+  .icon4::before {
+    background-image: url();
+  }
+  .icon5::before {
+    background-image: url();
+  }
+  .icon6::before {
+    background-image: url();
+  }
+
   /* footer */
   .footer {
     background-color: var(--third-bg-color);
@@ -402,16 +455,16 @@
     margin-bottom: 30px;
   }
   .icon-instagram::before {
-    background-image: url(../images/icons/antenna\ 1.png);
+    background-image: url();
   }
   .icon-twitter::before {
-    background-image: url(../images/icons/clock\ 1.png);
+    background-image: url();
   }
   .icon-facebook::before{
-    background-image: url(../images/icons/diagram\ 1.png);
+    background-image: url();
   }
   .icon-linkedln::before{
-    background-image: url(../images/icons/astronaut\ 1.png);
+    background-image: url(.);
   }*/
 
   /* portfolio */
