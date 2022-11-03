@@ -134,7 +134,7 @@
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
-     url(../images/requestbg/requestbg.jpg);
+     url(../images/requestbg/requestbg1.jpg);
      margin-left: auto;
      margin-right: auto;
      background-repeat: no-repeat;
@@ -195,6 +195,28 @@
   }
   .quality-item:nth-child(4n) {
     margin-right: 0;
+  }
+  .quality-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--second-bg-color);
+    margin-bottom: 30px;
+  }
+  .icon-antenna::before {
+    background-image: url(../images/icons/antenna\ 1.png);
+  }
+  .icon-clock::before {
+    background-image: url(../images/icons/clock\ 1.png);
+  }
+  .icon-diagram::before{
+    background-image: url(../images/icons/diagram\ 1.png);
+  }
+  .icon-astronaut::before{
+    background-image: url(../images/icons/astronaut\ 1.png);
   }
   /*.quality-item:nth-last-child(-n +4) {
     margin-bottom: 0;
@@ -302,7 +324,7 @@
     margin-right: 30px;
     width: 170px;
   }
-  .client-list li:ntn-last-child(6n) {
+  .client-list li:nth-child(6n) {
     margin-right: 0;
   }
   /* footer */
@@ -348,6 +370,50 @@
   .footer .contacts {
     color: var(--secondary-white-color);
   }
+  /*find us on*/
+  /*.link {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-image: url();
+    background-color: ;
+    background-size: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: ;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .social-item {
+    width: 206px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  .social-item:nth-child(4n) {
+    margin-right: 0;
+  }
+  .social-item::before {
+    display: block;
+    content: "";
+    height: 44px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--second-bg-color);
+    margin-bottom: 30px;
+  }
+  .icon-instagram::before {
+    background-image: url(../images/icons/antenna\ 1.png);
+  }
+  .icon-twitter::before {
+    background-image: url(../images/icons/clock\ 1.png);
+  }
+  .icon-facebook::before{
+    background-image: url(../images/icons/diagram\ 1.png);
+  }
+  .icon-linkedln::before{
+    background-image: url(../images/icons/astronaut\ 1.png);
+  }*/
+
   /* portfolio */
   .portfolio .list {
     list-style: none;  
@@ -378,6 +444,9 @@
     cursor: pointer;
     /* shadow-middle */
     /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);*/
+  }
+  .button li:nth-child(5n) {
+    margin-right: 0;
   }
     
   .button:hover,
