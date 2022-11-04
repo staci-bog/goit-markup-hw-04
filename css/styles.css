@@ -122,6 +122,16 @@
   .auth-nav .link:focus {
   color: var(--accent-color);
   }
+  .auth-nav .contact-link {
+    display: flex;
+    align-items: center;
+  }
+  .auth-nav .icon {
+    margin-right: 10px;
+  }
+  /*.auth-nav .contact-link:hover .icon {
+    color: var(--accent-color);
+  }*/
  /* .auth-nav .mail-link::before {
     content: "";
     display: inline-block;
