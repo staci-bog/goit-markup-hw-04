@@ -207,16 +207,16 @@
     margin-bottom: 30px;
   }
   .icon-antenna::before {
-    background-image: url(../images/icons/antenna\ 1.png);
+    background-image: url(../images/icons/antenna\ 1.svg);
   }
   .icon-clock::before {
-    background-image: url(../images/icons/clock\ 1.png);
+    background-image: url(../images/icons/clock\ 1.svg);
   }
   .icon-diagram::before{
-    background-image: url(../images/icons/diagram\ 1.png);
+    background-image: url(../images/icons/diagram\ 1.svg);
   }
   .icon-astronaut::before{
-    background-image: url(../images/icons/astronaut\ 1.png);
+    background-image: url(../images/icons/astronaut\ 1.svg);
   }
   /*.quality-item:nth-last-child(-n +4) {
     margin-bottom: 0;
@@ -348,46 +348,28 @@
     text-align: center;
   }
   /* customers*/
-  .client-list {
+  .customer-list {
     display: flex;
     flex-wrap: wrap;
   }
-  .client-list li {
+  .customer-list li {
     margin-right: 30px;
-    /*width: 170px;*/
   }
-  .client-list li:nth-child(6n) {
+  .customer-list li:nth-child(6n) {
     margin-right: 0;
   }
-  .customer-item::before {
+  .customer-item {
     display: block;
     content: "";
     width: 170px;
     height: 92px;
     border-radius: 4px;
+    border : 1px solid #AFB1B8;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--second-bg-color);
     margin-bottom: 30px;
   }
-  .icon1::before {
-    background-image: url();
-  }
-  .icon2::before {
-    background-image: url();
-  }
-  .icon3::before {
-    background-image: url(.);
-  }
-  .icon4::before {
-    background-image: url();
-  }
-  .icon5::before {
-    background-image: url();
-  }
-  .icon6::before {
-    background-image: url();
-  }
+  .customer-item {}
 
   /* footer */
   .footer {
@@ -403,6 +385,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    
   }
   .footer-logo-studio {
     font-family: 'Raleway';
