@@ -446,13 +446,13 @@
   .footer .link:focus {
     color: var(--accent-color);
   }
-  .footer .contacts,
-  .footer .title {
+  .footer .contacts {
     color: var(--secondary-white-color);
   }
   /*find us on*/
   .footer .title {
     color: var(--primary-white-color);
+
   }
   .social-link, 
   .social-item   {
@@ -472,7 +472,6 @@
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
-    /*background-color: var(--primary-white-color);*/
     /*width: 206px;
     margin-right: 10px;
     margin-bottom: 0px;*/
@@ -520,17 +519,15 @@
     letter-spacing: 0.03em;
     color: var(--second-color-text);
     cursor: pointer;
-    /* shadow-middle */
-    /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);*/
   }
   .button li:nth-child(5n) {
     margin-right: 0;
   }
-    
   .button:hover,
   .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
   /* list of projects */
   .portfolio-container {
@@ -549,7 +546,9 @@
   .portfolio-element:nth-last-child(-n +3) {
     margin-bottom: 0;
   }
- 
+ .portfolio-element:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ }
   .portfolio-link {
     text-decoration: none;
   }
