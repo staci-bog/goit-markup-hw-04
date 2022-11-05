@@ -129,9 +129,9 @@
   .auth-nav .icon {
     margin-right: 10px;
   }
-  /*.auth-nav .contact-link:hover .icon {
+  .auth-nav .contact-link:hover .icon {
     color: var(--accent-color);
-  }*/
+  }
  /* .auth-nav .mail-link::before {
     content: "";
     display: inline-block;
@@ -411,21 +411,26 @@
   
   .customer-item .customer-icon {
     fill:  #AFB1B8;
+    /*width: 106px;
+    height: 60px;*/
   }
   
   .customer-item .customer-link:hover .customer-icon {
     fill: var(--accent-color);
   }
+  .customer-item .customer-link:hover {
+    border: 1px solid var(--accent-color);
+  }
   .customer-item  .customer-item:hover,
   .customer-item  .customer-item:focus {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 12px;
-    background-image: url(../images/icons/envelope.svg);
-    margin-right: 10px; 
     background-color: var(--accent-color);
   }
+
+  /*content: "";
+    display: inline-block;
+    
+    background-image: url(../images/icons/envelope.svg);
+    margin-right: 10px; */
   /* footer */
   .footer {
     background-color: var(--third-bg-color);
