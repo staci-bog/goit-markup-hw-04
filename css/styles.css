@@ -412,7 +412,20 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  
   /* footer logo */
+  .container2 {
+    display: flex;  
+    align-items: baseline;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-address-block { 
+    margin-right: 70px;
+   }
   .footer-logo-web {
     font-family: 'Raleway';
     font-weight: 700;
@@ -450,9 +463,14 @@
     color: var(--secondary-white-color);
   }
   /*find us on*/
+  .footer-social-block { 
+    display: inline;
+    width: 206px;
+    margin: 0;
+  }
+  
   .footer .title {
     color: var(--primary-white-color);
-
   }
   .social-link, 
   .social-item   {
@@ -468,25 +486,23 @@
     height: 44px;
     margin-right: 10px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: rgba(255, 255, 255, 0.1);
-    /*width: 206px;
-    margin-right: 10px;
-    margin-bottom: 0px;*/
   }
   .social-item:nth-child(4n) {
     margin-right: 0;
   }
-  .social-icons  .social-item:hover,
-  .social-icons  .social-item:focus {
+  .footer-icons {
+    display: inline-flex
+  }  
+  .footer-icons  .social-item:hover,
+  .footer-icons  .social-item:focus {
     background-color: var(--accent-color);
   }
-  .social-icons .social-icon {
+  
+  .footer-icons .social-icon1 {
     fill:  var(--primary-white-color);
   }
-  .social-icons .social-link:hover .social-icon {
+  .footer-icons .social-link:hover .social-icon {
     fill: var(--primary-white-color);
   }
   
