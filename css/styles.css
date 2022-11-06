@@ -492,7 +492,8 @@
     margin-right: 0;
   }
   .footer-icons {
-    display: inline-flex
+    display: inline-flex;
+    padding-inline: 0;
   }  
   .footer-icons  .social-item:hover,
   .footer-icons  .social-item:focus {
